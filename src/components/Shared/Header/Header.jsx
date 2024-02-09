@@ -33,12 +33,12 @@ const Header = () => {
             <div className='email'>
 
 
-              <div className='  text-[#5d4eff] flex justify-between items-center gap-2 ms-10 me-10'>
+              <div className='  text-[#41b31d] flex justify-between items-center gap-2 ms-10 me-10'>
 
               <div className='flex'>
               <div className='icon1'>
                <TfiEmail /> 
-               <h1 className='my-4 ps-2'><NavLink to="#">developer.rupangkar.com</NavLink></h1>
+               <h1 className='my-4 ps-2'><NavLink to="#">developer.rupangkar@gmail.com</NavLink></h1>
                </div>
                <div className='icon1 ps-3'>
                <FaPhone></FaPhone>
@@ -78,8 +78,8 @@ const Header = () => {
   </div>
   <div className="flex gap-4">
 
-  <div className=' text-[#5d4eff] items-center flex mr-11 gap-3'>
-  <input type="text" placeholder="Search" className="border-[#5d4eff] bg-slate-600 input input-bordered w-100 md:w-auto" />
+  <div className=' text-[#41b31d] items-center flex mr-11 gap-3'>
+  <input type="text" placeholder="Search" className="border-[#41b31d] bg-slate-600 input input-bordered w-100 md:w-auto" />
   <FaSearch></FaSearch>
   </div>
 
@@ -87,7 +87,7 @@ const Header = () => {
     <div className=" flex form-control">
 
     <div className="flex-none">
-    <ul className="menu menu-horizontal px-1 text-[#5d4eff]">
+    <ul className="menu menu-horizontal px-1 text-[#41b31d]">
       <li><Link to="/">Home</Link></li>
       <li><Link to="/about">About</Link></li>
       <li><Link to="/service">Service Us</Link></li>
@@ -106,7 +106,7 @@ const Header = () => {
        {
         user ?  <div className="w-10 rounded-full">
         <img alt="Tailwind CSS Navbar component" src={user?.photoURL} />
-      </div> : <NavLink to="/login" className='text-[#5d4eff]'>Login</NavLink>
+      </div> : <NavLink to="/login" className='text-[#41b31d]'>Login</NavLink>
        }
       </div>
       <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">

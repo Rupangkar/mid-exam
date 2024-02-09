@@ -13,6 +13,7 @@
 } */
 .bottona{
 color: #fff;
+border: 3px solid #41b31d;
 }
 .bottona:hover{
     background-color: #5d4eff;

@@ -14,7 +14,7 @@ const Home = () => {
        <div className='text-center text-white pb-10 mb-10 w-full'>
         <h1 className=' text-5xl font-bold mb-5 text-[#5d4eff]'>Wellcome to web it ..</h1>
         <p className='text-2xl'>We all are create you, It company service members. All times we ready to perfect your self, that's it ... </p>
-        <button className='bottona border rounded my-5 p-3'>Learn more</button>
+        <button className='bottona border rounded my-5 p-3'>Clink Me</button>
 
        </div>
 
