@@ -1,0 +1,15 @@
+.about p{
+    /* background-color: #19191; */
+    font-size: 20px;
+    color :#fff;
+}
+.aboutboton:hover {
+    background-color: #4B5563;
+    color: #fff;
+    transition: 0.5s;
+}
+.aboutboton{
+    
+    background-color: #5d4eff;
+    color: black;
+}
